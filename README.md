@@ -43,7 +43,7 @@ All preseeded accounts use the password: **`password123`**
 ### 1. Installation & Environment
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Abdurehman-Kero/helpdesk-management-system.git
 cd helpdesk-management-system
 
 # Fast package installation
