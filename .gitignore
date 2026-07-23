@@ -9,7 +9,8 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
+AGENT_PROMPT.md
+docs/
 # testing
 /coverage
 
@@ -30,12 +31,16 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files
 .env*
-
+.env
+!.env.example
 # vercel
 .vercel
+SYSTEM_ARCHITECTURE_GUIDE.md
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/app/generated/prisma
