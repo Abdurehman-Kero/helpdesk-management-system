@@ -11,6 +11,12 @@
 !.yarn/versions
 AGENT_PROMPT.md
 docs/
+
+# sqlite database files
+*.db
+*.db-journal
+prisma/dev.db
+
 # testing
 /coverage
 
@@ -35,9 +41,11 @@ yarn-error.log*
 .env*
 .env
 !.env.example
+
 # vercel
 .vercel
 SYSTEM_ARCHITECTURE_GUIDE.md
+TESTING_GUIDE.md
 
 # typescript
 *.tsbuildinfo
